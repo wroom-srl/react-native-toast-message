@@ -141,6 +141,7 @@ export declare type ToastConfigParams<Props> = {
     text2?: string;
     text1Style?: StyleProp<TextStyle>;
     text2Style?: StyleProp<TextStyle>;
+    text2NumberOfLines?: number;
     show: (params: ToastShowParams) => void;
     hide: (params: ToastHideParams) => void;
     onPress: () => void;

@@ -41,6 +41,7 @@ function renderComponent({
     onPress,
     text1Style,
     text2Style,
+    text2NumberOfLines,
     position,
     visibilityTime,
     props
@@ -67,6 +68,7 @@ function renderComponent({
     text2,
     text1Style,
     text2Style,
+    text2NumberOfLines,
     show,
     hide,
     onPress,
@@ -83,7 +85,7 @@ export function ToastUI(props: ToastUIProps) {
     keyboardOffset,
     avoidKeyboard,
     swipeable,
-    animationConfig
+    animationConfig,
   } = options;
 
   return (
