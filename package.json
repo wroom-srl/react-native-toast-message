@@ -1,11 +1,11 @@
 {
   "name": "react-native-toast-message",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "Toast message component for React Native",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
-    "/lib"
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "toast"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "yarn build",
     "setup": "./scripts/setup.sh",
     "bump": "./scripts/bump.sh",
     "build": "rm -rf ./lib && tsc",
