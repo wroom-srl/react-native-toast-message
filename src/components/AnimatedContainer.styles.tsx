@@ -6,7 +6,8 @@ export const styles = StyleSheet.create({
     left: 0,
     right: 0,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    zIndex: 9999
   },
   top: {
     top: 0

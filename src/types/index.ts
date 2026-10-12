@@ -47,6 +47,13 @@ export type ToastOptions = {
    * Style for the inner message text in the Toast (text2).
    */
   text2Style?: StyleProp<TextStyle>;
+  
+  /**
+   * Number of lines the Text 2 can have in the Toast
+   * defaults to 1
+   */
+  text2NumberOfLines?: number
+
   /**
    * Toast position.
    * Default value: `top`

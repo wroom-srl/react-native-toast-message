@@ -16,6 +16,7 @@ export const DEFAULT_OPTIONS: Required<ToastOptions> = {
   type: 'success',
   text1Style: null,
   text2Style: null,
+  text2NumberOfLines: 1,
   position: 'top',
   autoHide: true,
   swipeable: true,
