@@ -3,6 +3,5 @@
 node_modules
 .idea
 coverage
-lib
 .yarn
 .yarnrc.yml
